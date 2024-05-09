@@ -1,6 +1,6 @@
 
 body{
-    background-image: url(bg.jpg);
+    background-image: url(assets/bg.jpg);
     background-size: cover;
     overflow: hidden;
 }
@@ -14,7 +14,7 @@ a {
 }
 
 .building {
-    background-image: url(city.png);
+    background-image: url(assets/city.png);
     margin-top: 340px;
     position: absolute;
     height: 350px;
@@ -29,7 +29,7 @@ a {
 }
 
 .road{
-    background-image: url(road.jpg);
+    background-image: url(assets/road.jpg);
     height: 250px;
     width: 400%;
     position: absolute;
@@ -44,7 +44,7 @@ a {
 }            
 
 .tyre{
-    background-image: url(tyre.png);
+    background-image: url(assets/tyre.png);
     background-size: cover;
     height: 110px;
     width: 110px;
@@ -65,7 +65,7 @@ a {
 }
 
 .tyre2{
-    background-image: url(tyre.png);
+    background-image: url(assets/tyre.png);
     background-size: cover;
     height: 110px;
     width: 110px;
@@ -86,7 +86,7 @@ a {
 
 
 .car{
-    background-image: url(car.png);
+    background-image: url(assets/car.png);
     background-size: cover;
     position: absolute;
     height: 250px;

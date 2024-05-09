@@ -1,0 +1,83 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+a {
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.building {
+    background-image: url(city.png);
+    margin-top: 340px;
+    position: absolute;
+    height: 350px;
+    width: 500%;
+    animation: buildinganimation 2s infinite normal linear;
+}
+
+@keyframes buildinganimation {
+    100%{
+        transform: translateX(-900px);
+    }
+
+}
+
+.road{
+    background-image: url(road.jpg);
+    height: 250px;
+    width: 700%;
+    position: absolute;
+    margin-top: 590px;
+    animation: roadanimation 1s infinite normal linear ;
+}
+
+@keyframes roadanimation{
+    100% {
+        transform: translateX(-1500px);
+    }
+   
+}
+
+.plane{
+    background-image: url(plane.png);
+    background-size: cover;
+    height: 250px;
+    width: 450px;
+    position: absolute;
+    margin-top: 500px;
+
+    animation: plane 3s linear infinite;
+}
+
+@keyframes plane{
+    0%{ transform: translate(-150px,0%);
+
+    }
+    30%{
+        transform: translate(400px,-30%);
+        rotate: -10deg;
+    }
+    60%{
+        transform: translate(800px,-60%);
+        rotate: -15deg;
+    }
+    100%{
+        transform: translate(1500px,-90%);
+        rotate: -20deg;
+    }
+}
+
+.sun {
+    background-image: url(sun.png);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    margin: 18px 60%;
+  
+}

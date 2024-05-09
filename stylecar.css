@@ -1,0 +1,108 @@
+
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+a {
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.building {
+    background-image: url(city.png);
+    margin-top: 340px;
+    position: absolute;
+    height: 350px;
+    width: 500%;
+    animation: buildinganimation 2s infinite normal linear;
+}
+
+@keyframes buildinganimation {
+    100%{
+        transform: translateX(-1600px);
+    }
+}
+
+.road{
+    background-image: url(road.jpg);
+    height: 250px;
+    width: 400%;
+    position: absolute;
+    margin-top: 590px;
+    animation: roadanimation 2s infinite normal linear;
+}
+
+@keyframes roadanimation{
+    100% {
+        transform: translateX(-1600px);
+    }
+}            
+
+.tyre{
+    background-image: url(tyre.png);
+    background-size: cover;
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 4.3%;
+    animation: tyre 0.5s infinite linear;
+}
+@keyframes tyre {
+    0%{
+        rotate: 0deg;
+    }
+
+    100%{
+        rotate: 360deg;
+    }
+    
+}
+
+.tyre2{
+    background-image: url(tyre.png);
+    background-size: cover;
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    margin-left: 22.7%;
+    margin-top: 40%;
+    animation: rotate 0.5s linear infinite;
+}
+
+@keyframes rotate {
+     0% { 
+          rotate: 0deg;
+     } 
+     100% { 
+         rotate: 360deg; 
+    } 
+}
+
+
+.car{
+    background-image: url(car.png);
+    background-size: cover;
+    position: absolute;
+    height: 250px;
+    width: 480px;
+    margin-top: 27%;
+}
+
+.cars{
+    animation: car 5s linear infinite; 
+}
+
+@keyframes car {
+    0%{
+        transform: translateX(-400px);
+    }
+    100%{
+        transform: translateX(1500px);
+    }
+}

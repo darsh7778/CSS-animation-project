@@ -1,5 +1,5 @@
 body{
-    background-image: url(bg.jpg);
+    background-image: url(assets/bg.jpg);
     background-size: cover;
 }
 
@@ -12,7 +12,7 @@ a {
 }
 
 .building {
-    background-image: url(city.png);
+    background-image: url(assets/city.png);
     margin-top: 340px;
     position: absolute;
     height: 350px;
@@ -28,7 +28,7 @@ a {
 }
 
 .road{
-    background-image: url(road.jpg);
+    background-image: url(assets/road.jpg);
     height: 250px;
     width: 700%;
     position: absolute;
@@ -44,7 +44,7 @@ a {
 }
 
 .plane{
-    background-image: url(plane.png);
+    background-image: url(assets/plane.png);
     background-size: cover;
     height: 250px;
     width: 450px;
@@ -73,7 +73,7 @@ a {
 }
 
 .sun {
-    background-image: url(sun.png);
+    background-image: url(assets/sun.png);
     background-size: cover;
     height: 150px;
     width: 150px;

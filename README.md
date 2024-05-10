@@ -1,2 +1,2 @@
 # CSS-animation-project
-this is the css animation project in loop.
+this is the css animation project.
